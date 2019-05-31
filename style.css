@@ -1,10 +1,83 @@
-#webGL{
+#webGL {
     position: fixed;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    top:0;
+    top: 0;
     left: 0;
     overflow: hidden;
-  }
+}
+
+#webGL {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#info {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    z-index: 100;
+    display: block;
+    color: white;
+}
+
+#info1 {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    z-index: 100;
+    display: block;
+    color: white;
+}
+
+#GameOver {
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    z-index: 1000;
+    display: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+#textGameOver {
+    background-color: rgba(0, 0, 0, 0.952);
+}
+
+#textGameOver>p {
+    font-size: 20px;
+}
+
+#textGameOver>button {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    border: 2px dotted rgb(105, 105, 105);
+    background-color: rgb(202, 202, 202);
+    font-size: 14px;
+}
+
+#textGameOver>button:hover {
+    border-radius: 12px;
+    border: 2px dashed rgb(105, 105, 105);
+    background-color: rgb(163, 163, 163);
+    font-size: 12px;
+}
